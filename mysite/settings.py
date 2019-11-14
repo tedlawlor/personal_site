@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'boards',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +129,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+STATICFILES_DIRS = ( os.path.join('static'), )
 django_heroku.settings(locals())
 
 del DATABASES['default']['OPTIONS']['sslmode']

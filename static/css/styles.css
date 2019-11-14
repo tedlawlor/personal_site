@@ -1,0 +1,54 @@
+
+body{
+    text-decoration-color: black;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin: auto;    
+    display: block;
+}
+.row{
+    width: 100%;
+}
+
+#feet{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.row-intro{
+    margin-bottom: 50px;  
+}
+
+footer{
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.foot-font{
+    margin-bottom: 0;
+}
+
+.container-fluid{
+    margin-top: 50px; 
+    margin-bottom: 100px; 
+}
+
+.col{
+    align-self: center;
+}
+
+.col-page-content{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p{
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 35px;
+}
