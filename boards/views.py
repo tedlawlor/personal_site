@@ -6,4 +6,6 @@ def home(request):
     return render(request, 'index.html')
 def info(request):
     return render(request, 'aboutMe.html')
+def projects(request):
+    return render(request, 'projects.html')
     
