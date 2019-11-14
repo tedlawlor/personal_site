@@ -9,6 +9,10 @@ body{
     margin-right: 5%;
 }
 
+.display-4{
+    margin-left:15%;
+}
+
 img {
     height: 250px;
     width: 250px;
@@ -57,4 +61,8 @@ p{
     letter-spacing: 2px;
     font-size: 20px;
     line-height: 35px;
+}
+
+h4{
+    text-align: center;
 }
