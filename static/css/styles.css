@@ -25,9 +25,8 @@ img {
 }
 
 #feet{
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .row-intro{
@@ -36,7 +35,6 @@ img {
 
 footer{
     background-color: lightgray;
-    margin-top: 20px;
 }
 
 .foot-font{
@@ -44,8 +42,8 @@ footer{
 }
 
 .container-fluid{
-    margin-top: 50px; 
-    margin-bottom: 100px; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
 }
 
 .col{
@@ -56,6 +54,7 @@ footer{
     margin-left: 15%;
     margin-right: 15%;
 }
+
 
 p{
     letter-spacing: 2px;

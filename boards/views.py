@@ -8,4 +8,6 @@ def info(request):
     return render(request, 'aboutMe.html')
 def projects(request):
     return render(request, 'projects.html')
+def poems(request):
+    return render(request, 'poems.html')
     

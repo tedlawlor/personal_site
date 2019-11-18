@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+
+<!-- Add additional CSS in static file --> 
+{% load static %} 
+<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+{%block content%}
+    <div class="jumbotron">
+        <h1 class="display-4">A collection of poetry</h1>
+        <p class="lead">Below are a collection of poems from my friends. If you'd like to see your poem here, message me your poem to have it published on the new Facebook-Google-Amazon</p>
+        <hr class="my-4">
+        <p>This is a poem</p>
+        <p>It has words and other things</p>
+        <p>Best slug in the world</p>
+        <p>~ Jerry Gelber</p>
+        <hr class="my-4">
+        <p>These things are the dream</p>
+        <p>This could be the best flat top</p>
+        <p>Number two tea ever</p>
+        <p>~ Jerry Gelber</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://jerryoftheday.net" role="button">More Works From Jerry</a>
+        </p>
+    </div>
+{%endblock%}
