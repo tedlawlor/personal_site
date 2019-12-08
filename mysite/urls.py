@@ -27,6 +27,8 @@ urlpatterns = [
     path('aboutMe/', views.info, name='info'),
     path('projects/', views.projects, name='projects'),
     path('poems/', views.poems, name='poems'),
+    path('food/', views.food, name='food'),
+
 
 ]
 

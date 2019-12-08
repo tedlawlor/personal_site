@@ -12,7 +12,7 @@
   <!-- Add additional CSS in static file -->
   
 </head>
-<body style="background-color: #343a40!important">
+<body id="bootstrap-overrides" style="background-color: #343a40!important">
     {% block nav %}
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
@@ -27,7 +27,8 @@
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <!---    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'info' %}">About Me</a>
@@ -38,16 +39,19 @@
               <li class="nav-item">
                   <a class="nav-link" href="{% url 'poems' %}">Poetry</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'food' %}">Menu</a>
+                </li>
             </ul>
           </div>
-          
+      -->   
     </nav>
     {% endblock %}
-    <div class="container-fluid" style="background-color: white">{%block content%}{%endblock%}</div>
+    {%block content%}{%endblock%}
     
 </body>
-<footer>
-    {%block foot%}
+<footer style="margin-right:3%; margin-left:3%;">
+  {%block foot%}
     <!-- Footer -->
 <footer class="page-footer font-small blue pt-3">
 

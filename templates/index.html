@@ -4,7 +4,8 @@
 {% load static %} 
 <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
 {%block content%}
-<div class = "jumbotron">
+<div class = "jumbotron" style="margin-top:2rem">
+    <div class="container-fluid">
     <div class = "row">
       <h1 class="display-3">Welcome,</h1>
     </div>
@@ -12,7 +13,7 @@
     <div class = "row-intro">
       <div class = "col"></div>
       <div class = "col">
-        <img src="{% static 'images/portrait.jpg' %}" alt="missing" class="rounded-circle">
+        <img src="{% static 'images/portrait.jpg' %}" style="height:250px; width:250px;" alt="missing" class="rounded-circle">
       </div> 
       <div class = "col"></div>
     </div>
@@ -20,7 +21,7 @@
         <div class="col-page-content">
           <p>Hi! My name is Ted Lawlor and I am a Junior at Lehigh University. If you couldn’t tell by the name of the website, my goal is for this page to showcase some things about me. This includes a little about who I am and some projects and experiences I’ve had before. More so than just an online portfolio, I want this page to eventually grow to provide other interesting content from my life. I plan to keep changing it up cause the more this grows the cooler it will be. Let’s see where this goes and welcome!</p>
         </div>
-
     </div>
   </div>
+</div>
 {%endblock%}

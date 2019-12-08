@@ -10,4 +10,6 @@ def projects(request):
     return render(request, 'projects.html')
 def poems(request):
     return render(request, 'poems.html')
+def food(request):
+    return render(request, 'food.html')
     

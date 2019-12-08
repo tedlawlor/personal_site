@@ -1,0 +1,53 @@
+{% extends "base_generic.html" %}
+
+<!-- Add additional CSS in static file --> 
+{% load static %} 
+<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+{%block content%}
+    <div>   
+        <div class="jumbotron">
+                <h1 class="display-4">Georgie's Grub</h1>
+                <img class="rounded-circle" style="height:200px; width:200px;" src="{% static 'images/george.png' %}" alt="">
+                <h3 class="display-4">Meet George</h3>
+                <p class="lead">Chef George has taken care of the boys for as long as time with the dankest meals.</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="jumbotron" style="padding-top:2rem;">
+            <div class="row">
+                <div class="col-sm">
+                    <h5 class="display-4" style="text-align: center">Menu</h5>
+                    <p style="text-align:center; font-size:15px;"> December 2nd thru December 6th</p>
+                    <hr class="my-4">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row">
+                    <div class="col-sm">
+                        <p style="text-align: center">Monday</p>
+                        <hr class="my-4">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <p style="font-weight:bold; text-align: center">Lunch:</p>
+                        <p>meatball subs with handmade spicy marinara</p>
+                    </div>
+                    <div class="col-sm">
+                        <p style="font-weight:bold; text-align: center">Dinner:</p>
+                        <p>32 oz new york sirloin</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+            
+        
+    
+    
+    
+
+        
+{%endblock%}

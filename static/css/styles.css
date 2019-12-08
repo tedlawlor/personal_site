@@ -4,6 +4,11 @@ body{
     background-color: #343a40;
 }
 
+#bootstrap-overrides row{
+    margin-right:20px;
+    margin-left:0;
+}
+
 .jumbotron{
     margin-left: 5%;
     margin-right: 5%;
@@ -14,14 +19,14 @@ body{
 }
 
 img {
-    height: 250px;
-    width: 250px;
     object-fit: cover;
     margin: auto;    
     display: block;
 }
 .row{
     width: 100%;
+    margin-right:0;
+    margin-left:0;
 }
 
 #feet{
@@ -33,8 +38,10 @@ img {
     margin-bottom: 50px;  
 }
 
-footer{
-    background-color: lightgray;
+.footer{
+    background-color: #343a40;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .foot-font{
@@ -62,3 +69,6 @@ p{
     line-height: 35px;
 }
 
+.tab { 
+    margin-left: 40px; 
+}
